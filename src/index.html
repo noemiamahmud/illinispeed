@@ -1,13 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MP1</title>
-    </head>
-    <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
-    </body>
+   <head>
+       <meta charset="utf-8" />
+       <meta http-equiv="x-ua-compatible" content="ie=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>ILLINI SPEED</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+   </head>
+   <body>
+       <header id="navbar">
+           <div class="container">
+               <h1 class="illinispeed">ILLINI SPEED</h1>
+               <nav>
+                   <ul>
+                       <li><a href="#home">Home</a></li>
+                       <li><a href="#photos">Photos</a></li>
+                       <li><a href="#about">About</a></li>
+                       <li><a href="#contact">Contact</a></li>
+                   </ul>
+               </nav>
+           </div>
+       </header>
+
+
+       <section id="home" class="section banner">
+            <video autoplay muted loop playsinline class="banner-video">
+                <source src="assets/Screen Recording 2025-09-22 at 10.54.42 PM.mp4" type="video/mp4">
+                cannot play video
+            </video>
+           <div class="content">
+               <h1> Life's Short. Skate Fast.</h1>
+           </div>
+       </section>
+
+
+       <section id="photos" class="section">
+           <h2>One of ONLY TWO Intercollegiate Speed Skating Teams in the Nation.</h2>
+           <div class="carousel-container">
+                <button class="prev">&#10094;</button>
+                <div class="carousel-track">
+                    <div class="slide"><img src="assets/IMG_0897-preview.png" alt="Photo 1"></div>
+                    <div class="slide"><img src="assets/IMG_77720DAAEC75-1.jpeg" alt="Photo 2"></div>
+                    <div class="slide"><img src="assets/IMG_6375.JPG" alt="Photo 3"></div>
+                    <div class="slide"><img src="assets/2023Nationals_152.jpg" alt="Photo 4"></div>
+                    <div class="slide"><img src="assets/IMG_8AF84EE06C93-1.jpeg" alt="Photo 5"></div>
+                    <div class="slide"><img src="assets/NorthBurkeOpen2023_173 2.jpg" alt="Photo 6"></div>
+                </div>
+                <button class="next">&#10095</button>
+             </div>
+       </section>
+       <section id="exec" class="section exec-board">
+        <h1>Meet Your 2025/2026 Executive Board!</h1>
+        <div class="exec-buttons">
+            <button class="modal-button" data-modal="pres">President</button>
+            <button class="modal-button" data-modal="vp">Vice President</button>
+            <button class="modal-button" data-modal="rm">Registration Manager</button>
+            <button class="modal-button" data-modal="tres">Treasurer</button>
+        </div>
+
+
+        <div id="panel-pres" class="modal">
+            <div class="exec-info">
+                <span class="exit-modal">&times;</span>
+                <img src="assets/IMG_AD79F077E9FF-1.jpeg" alt="President" class="exec-photo" />
+                <h2>Meet Your President</h2>
+                <p> Marcello Gaus Ehning is a junior majoring in Actuarial Science and Economics. He serves as the President of Illini Speed, overseeing the operation of the club and leading the executive board.</p>
+            </div>
+        </div>
+
+
+        <div id="panel-vp" class="modal">
+            <div class="exec-info">
+                <span class="exit-modal">&times;</span>
+                <img src="assets/IMG_FC2ABFE5656D-1.jpeg" alt="President" class="exec-photo" />
+                <h2>Meet Your Vice President</h2>
+                <p>Kenneth Zhou is a senior majoring in Computer Science and Linguistics. He serves as the Vice President of Illini Speed, assisting the President in managing the operations of the club and serving on the executive board.</p>
+            </div>
+        </div>
+
+        <div id="panel-rm" class="modal">
+            <div class="exec-info">
+                <span class="exit-modal">&times;</span>
+                <img src="assets/Screenshot 2025-09-23 at 8.26.36 PM.png" alt="President" class="exec-photo" />
+                <h2>Meet Your Registration Manager</h2>
+                <p>Noemia Mahmud is a junior majoring in Brain and Cognitive Science. She serves as the registration manager, overseeing new member information and equipment organization. </p>
+            </div>
+        </div>
+
+        <div id="panel-tres" class="modal">
+            <div class="exec-info">
+                <span class="exit-modal">&times;</span>
+                <img src="assets/IMG_5B3141C3CC6F-1.jpeg" alt="President" class="exec-photo" />
+                <h2>Meet Your Treasurer</h2>
+                <p>Oliver Rogalski is a senior majoring in Statistics and Computer Science. He serves as the Treasurer of Illini Speed, managing the club’s finances and serving on the executive board.</p>
+            </div>
+        </div>
+       </section>
+
+       <section id="about" class="section about">
+            <h1>Our Mission.</h1>
+            <p>
+                Illini Speed is a registered student organization at the University of Illinois at Urbana-Champaign, whose purpose is to bring together both undergraduate and graduate students enrolled at the University of Illinois that are interested in the sport of speed skating, and to provide both recreational and social interactions for those interested in this sport. 
+            </p>
+       </section>
+
+       <section id="steps" class="section steps">
+        <div class="inside-background">
+            <div class="step">
+                <div class="emoji"><i class="learn"></i></div>
+                <h3>
+                    Begin Your Skating Journey Here.
+                </h3>
+                <p>
+                    You don't need ANY experience to join Illini Speed. Skaters of all levels are welcome to grow and improve on their skills. 
+                </p>
+            </div>
+            <div class="step">
+                <div class="emoji"><i class="enjoy"></i></div>
+                <h3>
+                    Practice, Gatherings, and More. 
+                </h3>
+                <p> 
+                    Enjoy the many perks of being an Illini Speed Member. No dues, many social events, and equipment fully provided.
+                </p>
+            </div>
+            <div>
+            <div class="step">
+                <div class="emoji"><i class="compete"></i></div>
+                <h3>
+                    Show Off Your New Skills
+                </h3>
+                <p>
+                    Register for the 2026 CRS Open, bring your friends, and compete in a real speed skating competitiom.
+                </p>
+            </div>
+            </div>
+        </div>
+       </section>
+
+       <section id="contact" class="section contact">
+           <h1>SIGN ME UP!</h1>
+           <h3>Please include your shoe size in your message below. Thank you!</h3>
+           <form>
+               <input type="text" placeholder="Name" required />
+               <input type="email" placeholder="Email Address" required />
+               <textarea placeholder="Message" required></textarea>
+               <button type="submit">Send</button>
+             </form>
+       </section>
+       <footer>
+           <p>Illini Speed - Short Track Speed Skating Club</p>
+           <div class="socials">
+            <a href="https://groupme.com/join_group/XXXXX" target="_blank" aria-label="Join our group me">
+                <i class="fa-brands fa-groupme"></i>
+            </a>
+            <a href="https://instagram.com/illinispeed" target="_blank" aria-label="Follow our Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+           </div>
+       </footer>
+   </body>
 </html>
+
